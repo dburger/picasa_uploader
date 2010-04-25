@@ -1,3 +1,5 @@
+package com.dburger.picasa;
+
 import com.google.gdata.client.photos.PicasawebService;
 import com.google.gdata.data.appsforyourdomain.provisioning.UserFeed;
 import com.google.gdata.data.appsforyourdomain.provisioning.UserEntry;
