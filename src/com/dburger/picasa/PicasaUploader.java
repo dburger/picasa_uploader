@@ -9,8 +9,23 @@ import com.google.gdata.data.photos.AlbumEntry;
 import com.google.gdata.data.photos.PhotoEntry;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.URL;
+
+/*
+I don't think you need all of these jars but here is what I compiled / ran against.
+/home/dburger/jars
+dburger@dell-wildcat$ ls -l
+total 956
+-rw-r--r-- 1 dburger dburger  55932 2010-05-08 13:21 activation.jar
+-rw------- 1 dburger dburger  29875 2010-05-08 13:21 gdata-appsforyourdomain-1.0.jar
+-rw------- 1 dburger dburger  47155 2010-05-08 13:21 gdata-base-1.0.jar
+-rw------- 1 dburger dburger  21590 2010-05-08 13:21 gdata-calendar-1.0.jar
+-rw------- 1 dburger dburger 333521 2010-05-08 13:21 gdata-client-1.0.jar
+-rw------- 1 dburger dburger  10094 2010-05-08 13:21 gdata-codesearch-1.0.jar
+-rw------- 1 dburger dburger  60982 2010-05-08 13:21 gdata-photos-1.0.jar
+-rw------- 1 dburger dburger  24866 2010-05-08 13:21 gdata-spreadsheet-1.0.jar
+-rw-r--r-- 1 dburger dburger 356519 2010-05-08 13:21 mail.jar
+ */
 
 // compile: javac -classpath "/home/dburger/jars/*" PicasaUploader.java
 // execute: java -classpath "/home/dburger/jars/*:." PicasaUploader
