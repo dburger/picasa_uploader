@@ -93,5 +93,4 @@ public class PicasaUploader {
   public static String usage() {
     return "provide arguments: user password album delay photos*";
   }
-
 }
